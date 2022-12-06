@@ -2255,9 +2255,11 @@ input = <<INPUT
 6630
 INPUT
 
+puts "Problem 1: Calorie Counting"
 part_1 = input.split("\n\n").map{ |elf| elf.split("\n").map{ |c| Integer(c) }.sum }.max
-puts part_1.inspect
 
 part_2 = input.split("\n\n").map{ |elf| elf.split("\n").map{ |c| Integer(c) }.sum }.sort.reverse[0..2].sum
-puts part_2.inspect
 
+puts "Part 1: #{part_1}\nPart 2: #{part_2}"
+
+puts

@@ -1,0 +1,6 @@
+require_relative "calorie_counting"
+require_relative "rock_paper_scissors"
+require_relative "rucksack_reorganization"
+require_relative "camp_cleanup"
+require_relative "supply_stacks"
+require_relative "tuning_trouble"
